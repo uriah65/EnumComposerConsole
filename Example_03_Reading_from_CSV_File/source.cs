@@ -9,9 +9,9 @@ namespace UtComposer
     class Fake21_CsFakeDb
     {
         [EnumSqlCnn("#ODBC", @"Driver={Microsoft Text Driver (*.txt; *.csv)};Dbq=;Extensions=asc,csv,tab,txt;Persist Security Info=False")]
-        [EnumSqlSelect("SELECT * FROM [d03_data.txt]")]
-        public enum Weekdays
+        [EnumSqlSelect("SELECT * FROM [data.csv]")]
+        public enum ColorEnum
         {
-}
+        }
     }
 }
